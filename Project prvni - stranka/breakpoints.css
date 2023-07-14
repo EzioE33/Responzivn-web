@@ -1,0 +1,245 @@
+@media only screen and (max-width: 768px) {
+  h2 {
+    font-size: 3rem;
+  }
+
+  /* HERO-SECTION */
+  .navigation-list {
+    display: none;
+  }
+  .navigation-panel {
+    justify-content: flex-end;
+    padding-right: 20px;
+  }
+  .hamburger-menu {
+    display: inline-block;
+    cursor: pointer;
+  }
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 35px;
+    height: 4px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  /* Rotate first bar */
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+
+  /* Fade out the second bar */
+  .change .bar2 {
+    opacity: 0;
+  }
+
+  /* Rotate last bar */
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
+
+  .header-container {
+    right: 27px;
+    top: 56%;
+  }
+
+  .header-container-inner {
+    font-size: 5rem;
+  }
+
+  /* ABOUT-US */
+  .about-us-position-container {
+    height: 80%;
+    width: 85%;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  .about-us-img-container {
+    height: 515px;
+    flex-grow: 1;
+    flex-basis: 55%;
+  }
+
+  /* WHAT WE DO */
+  .what-we-do-position-container {
+    width: 85%;
+  }
+
+  .icons-container {
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+
+  /* OUR-TRIPS */
+  .our-trips-img-container {
+    width: 90%;
+    height: 100%;
+    gap: 7px;
+  }
+
+  .our-trips-item {
+    width: calc(100% / 3 - 14px / 2);
+  }
+  .our-trips-item-centered {
+    width: calc(100% / 3 - 14px / 2);
+    text-align: center;
+  }
+  .our-trips-text {
+    width: 106px;
+  }
+
+  /* REVIEWS */
+  .reviews-position-container {
+    width: 90%;
+  }
+  .reviews-common-text-container {
+    width: 80%;
+  }
+
+  /* CONTACT-US */
+  .contact-us-text-container {
+    width: 80%;
+  }
+
+  .contact-us-text-container p {
+    padding-bottom: 1rem;
+  }
+
+  /* REVIEWS */
+  .reviews-container {
+    background-color: #f2f2f2;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h2 {
+    font-size: 2rem;
+  }
+  /* HERO-SECTION */
+  .navigation-list {
+    display: none;
+  }
+  .navigation-panel {
+    justify-content: flex-end;
+    padding-right: 20px;
+  }
+  .hamburger-menu {
+    display: inline-block;
+    cursor: pointer;
+  }
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 35px;
+    height: 4px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  /* Rotate first bar */
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+
+  /* Fade out the second bar */
+  .change .bar2 {
+    opacity: 0;
+  }
+
+  /* Rotate last bar */
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
+
+  .header-container {
+    right: 27px;
+    top: 68%;
+  }
+
+  .header-container-inner {
+    font-size: 3rem;
+  }
+  /* ABOUT-US */
+  .about-us-position-container {
+    flex-direction: column;
+    width: 85%;
+    height: 90%;
+  }
+  /* WHAT-WE-DO */
+  .what-we-do-position-container {
+    gap: 45px;
+    width: 85%;
+  }
+
+  .icons-container {
+    justify-content: center;
+    gap: 40px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  /* OUR-TRIPS */
+
+  .our-trips-img-container {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .our-trips-item {
+    width: 100%;
+  }
+  .our-trips-item-centered {
+    width: 100%;
+    height: 50px;
+  }
+
+  .our-trips-text {
+    width: 162px;
+  }
+
+  /* CONTACT-US */
+  .contact-us-headline br {
+    display: none;
+  }
+  .contact-us-text-container {
+    flex-direction: column;
+    width: 85%;
+  }
+
+  /* REVIEWS */
+  .reviews-container {
+    background-color: white;
+  }
+  .reviews-position-container {
+    height: 100%;
+    width: 90%;
+  }
+
+  .reviews-common-text-container {
+    width: 90%;
+  }
+  .reviews-people-container {
+    flex-direction: column;
+  }
+  .reviews-people {
+    width: 95%;
+  }
+
+  /* GALLERY */
+  .gallery {
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: column;
+  }
+  .gallery-item {
+    width: 100%;
+    height: 300px;
+  }
+}
+/* @media only screen and (max-width: 650px) {
+} */
